@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "be9c863f"
+  },
+  "about.qmd": {
+    "about.html": "aa232e12"
+  },
+  "blog.qmd": {
+    "blog.html": "b3afaa95"
+  },
+  "projects.qmd": {
+    "projects.html": "da64b188"
+  },
+  "projects/Car_prediction.qmd": {
+    "Car_prediction.html": "5dfb140a"
+  },
+  "projects/CarPred/Car_prediction.qmd": {
+    "Car_prediction.html": "fdfdc4a2"
+  },
+  "projects/HeartDiseasePred/HearDiseasePred.qmd": {
+    "HearDiseasePred.html": "d497cba4"
+  }
+}

@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Amir Abdollahpour"
+  navbar:
+    tools:
+      - icon: github
+        href: https://github.com/pouniq
+      - icon: linkedin
+        href: https://www.linkedin.com/in/amirmohammad-abdollahpour/
+    background: primary
+    left:
+      - blog.qmd
+
+      
+      
+
+
+format:
+  html:
+    theme:
+      cosmos
+    css: styles.css
+    toc: true
+
+
+

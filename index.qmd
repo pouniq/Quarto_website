@@ -1,0 +1,15 @@
+---
+title: "Amir Abdollahpour"
+about: 
+    template: trestles
+listing:
+    contents: projects
+    type: grid
+    max-items: 2
+
+---
+
+
+من امیر هستم و علاقه مند به جمع آوری داده، تحلیل داده ،مدل های یادگیری ماشین و پیاده سازی مدل ها هستم.
+
+## Projects - پروژه ها
