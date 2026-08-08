@@ -1,11 +1,15 @@
 ---
 title: "Amir Abdollahpour"
+dir : ltr
 about: 
-    template: trestles
+    template: jolla
+    image: well_test.jpg
+    image-shape: round
 listing:
-    contents: projects
+    contents: projects.yml
     type: grid
-    max-items: 2
+    max-description-length: 400
+    page-size: 200
 
 ---
 

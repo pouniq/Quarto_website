@@ -1,9 +1,6 @@
 [
   {
     "listing": "/index.html",
-    "items": [
-      "/projects/CarPred/Car_prediction.html",
-      "/projects/HeartDiseasePred/HearDiseasePred.html"
-    ]
+    "items": []
   }
 ]
