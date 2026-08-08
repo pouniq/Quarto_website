@@ -19,5 +19,38 @@
   },
   "projects/HeartDiseasePred/HearDiseasePred.qmd": {
     "HearDiseasePred.html": "d497cba4"
+  },
+  "posts/bias_variance/index.qmd": {
+    "index.html": "c087893e"
+  },
+  "posts/ClsEval/index.qmd": {
+    "index.html": "f732abac"
+  },
+  "posts/dataViz/index.qmd": {
+    "index.html": "ff4160d6"
+  },
+  "posts/missingvalues/index.qmd": {
+    "index.html": "b7c685e3"
+  },
+  "posts/traintestsplit/index.qmd": {
+    "index.html": "b513486d"
+  },
+  "posts/how-i-used-oop-to-simulate-sampling-methods-in-python/index.qmd": {
+    "index.html": "c558aefb"
+  },
+  "posts/detailed-ways-to-import-data-with-python/index.qmd": {
+    "index.html": "5e6b3c83"
+  },
+  "posts/StatTrap/index.qmd": {
+    "index.html": "138cafb1"
+  },
+  "posts/MLE/index.qmd": {
+    "index.html": "96cb0166"
+  },
+  "posts/ppl2know/index.qmd": {
+    "index.html": "42a48082"
+  },
+  "posts.qmd": {
+    "posts.html": "0e3923a7"
   }
 }

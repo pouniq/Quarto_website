@@ -2,5 +2,35 @@
   {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/bias_variance/index.html",
+      "/posts/ClsEval/index.html",
+      "/posts/dataViz/index.html",
+      "/posts/missingvalues/index.html",
+      "/posts/traintestsplit/index.html",
+      "/posts/how-i-used-oop-to-simulate-sampling-methods-in-python/index.html",
+      "/posts/detailed-ways-to-import-data-with-python/index.html",
+      "/posts/StatTrap/index.html",
+      "/posts/MLE/index.html",
+      "/posts/ppl2know/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/bias_variance/index.html",
+      "/posts/ClsEval/index.html",
+      "/posts/dataViz/index.html",
+      "/posts/missingvalues/index.html",
+      "/posts/traintestsplit/index.html",
+      "/posts/how-i-used-oop-to-simulate-sampling-methods-in-python/index.html",
+      "/posts/detailed-ways-to-import-data-with-python/index.html",
+      "/posts/StatTrap/index.html",
+      "/posts/MLE/index.html",
+      "/posts/ppl2know/index.html"
+    ]
   }
 ]

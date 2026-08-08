@@ -1,6 +1,6 @@
 ---
 title: "Amir Abdollahpour"
-dir : ltr
+dir : rtl
 about: 
     template: jolla
     image: well_test.jpg

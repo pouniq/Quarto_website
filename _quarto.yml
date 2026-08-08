@@ -11,18 +11,20 @@ website:
         href: https://www.linkedin.com/in/amirmohammad-abdollahpour/
     background: primary
     left:
-      - blog.qmd
-
-      
-      
+      - href: posts.qmd
+        text: Blog
 
 
 format:
   html:
-    theme:
-      cosmos
+    theme: cosmos
     css: styles.css
     toc: true
+    dir: rtl
+
+
+
+
 
 
 

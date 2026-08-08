@@ -5,6 +5,12 @@
       "posts",
       "projects",
       "projects.yml"
+    ],
+    "posts.qmd": [
+      "posts"
+    ],
+    "blog.qmd": [
+      "posts"
     ]
   }
 }

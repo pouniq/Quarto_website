@@ -1,0 +1,101 @@
+---
+title: "the most comprehensive ways to import data with python."
+slug: detailed-ways-to-import-data-with-python
+categories:
+  - programming
+  - python
+---
+
+## Working with CSV files:
+
+When working with data one of the most used formats is CSV files.
+
+to be able to work with them we need the famous python library called Pandas.
+
+first we need to import that library:
+
+```
+import pandas as pd
+```
+
+the code below will show us the way that we can do that:
+
+```
+df = pd.read_csv(
+	'nameOfthedataset.csv',
+	usecols = ['select the columns that you want to import]
+
+)
+```
+
+first argument of pd.read\_csv is the filepath of the dataset.
+
+the second argument (usecols) that we used is to select the columns that we want to choose from the dataset.
+
+with the second argument we would just import what we need from that data nothing more or nothing less.
+
+## Working with parquet files:
+
+we have another format that we use, called parquet, this format is useful when we have very large datasets and **the need for compression is noticeable.**
+
+before we can use pandas to import parquet data we need another library too called pyArrow
+
+we can run similar code:
+
+```
+df = pd.read_parquet(
+	'nameOfthedataset.csv',
+	columns = ['select the columns that you want to import]
+
+)
+```
+
+## Working with Excel Files:
+
+we can do that for excel formats too.
+
+```
+df = pd.read_excel(
+	'nameOfthedataset.xlsx',
+
+)
+```
+
+## Working with Databases:
+
+in real work scenarios, we have databases like MySql, Postgres, ... that we should be able to import to python and continue our work on.
+
+to do that, the first step is to have your favourite Database installed and make a database
+
+the second step is the install DBeaver and when you connect you SQL database to this software, you go on schemas and make a new schema and right click on that schema that you have made and click on **import data** and import the dataset that you want to use.
+
+to use the database in python, you need some other libraries too:
+
+* SQLAlchemy: create the connection between Database and the python
+* psycopg2-binary: it is for Postgres
+
+```
+import pandas as pd
+from SQLAlchemy import create_engine
+```
+
+then we go and connect to the database:
+
+```
+connection_address = "postgresql://<username>:<password>@<host>:5432/<databaseName>"
+
+engine = create_engine(connection_address)
+```
+
+```
+# then we load the dataset
+
+df = pd.read_sql(
+
+    "SELECT * FROM <schemaName>.dataset",
+    con = engine)
+```
+
+with this approach we can connect databases to python, in this example I used Postgresql, you can choose any other Database and do the same thing.
+
+you can use this blog post to see how can you import various type of data in python, hope it was helpful for you.
