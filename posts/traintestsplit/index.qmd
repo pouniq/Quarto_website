@@ -6,6 +6,9 @@ categories:
   - statistics
 ---
 
+
+![](images/back.png)
+
 Imagine you are professor in a college and you want to conduct a exam for your students.
 
 first of all, you give them some questions to work on to get ready for the exam, and then you conduct the real exam.

@@ -9,6 +9,8 @@ categories:
 
 ## probability proportional to size (PPS) sampling
 
+![](images/back.png)
+
 This method of sampling can help us in populations that the units of the population do not have equal chance of selection.
 
 below example can help us understand this method better:

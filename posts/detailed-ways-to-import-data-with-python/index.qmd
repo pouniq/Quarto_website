@@ -8,6 +8,9 @@ categories:
 
 ## Working with CSV files:
 
+![](images/READINGDATA.png)
+
+
 When working with data one of the most used formats is CSV files.
 
 to be able to work with them we need the famous python library called Pandas.
