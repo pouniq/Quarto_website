@@ -1,10 +1,6 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/bias_variance/index.html",
       "/posts/ClsEval/index.html",
@@ -19,7 +15,11 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts.html",
     "items": [
       "/posts/bias_variance/index.html",
       "/posts/ClsEval/index.html",
