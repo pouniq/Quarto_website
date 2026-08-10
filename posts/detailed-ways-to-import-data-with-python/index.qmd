@@ -8,7 +8,7 @@ categories:
 
 ## Working with CSV files:
 
-![](images/READINGDATA.png)
+![](images/READINGDATA.webp)
 
 
 When working with data one of the most used formats is CSV files.

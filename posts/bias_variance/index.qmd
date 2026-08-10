@@ -5,7 +5,7 @@ categories:
   - statistics
 ---
 
-![](images/back.jpg)
+![](images/back.webp)
 
 یکی از جالبترین و اصلی ترین پدیده ها در مدل های supervised یادگیری ماشین, موازنه کردن اریبی و واریانس است.
 

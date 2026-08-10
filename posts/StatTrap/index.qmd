@@ -7,7 +7,7 @@ categories:
 ---
 
 
-![](images/back.jpg)
+![](images/back.webp)
 
 
 همبستگی یا correlation یعنی متغیرها در کدام جهت و به چه شدتی نسبت به یکدیگر حرکت می کنند.

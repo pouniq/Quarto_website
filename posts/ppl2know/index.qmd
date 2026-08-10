@@ -5,7 +5,7 @@ categories:
 ---
 
 
-![](images/back.jpg)
+![](images/back.webp)
 
 
 

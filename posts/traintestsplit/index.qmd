@@ -7,7 +7,7 @@ categories:
 ---
 
 
-![](images/back.png)
+![](images/back.webp)
 
 Imagine you are professor in a college and you want to conduct a exam for your students.
 

@@ -6,7 +6,7 @@ categories:
 ---
 
 
-![](images/back.jpg)
+![](images/back.webp)
 
 > تنها چیز جدید در جهان، تاریخی است که شما نمی‌دانید.
 >
