@@ -18,3 +18,16 @@
 
   categories: [Streamlit, Python, Machine Learning, Classification, FastAPI]
 
+
+- title: Multiple Linear Regression on Housing Prices in Rasht
+  path: https://github.com/pouniq/MLR_Rasht_housing
+  image: projects/MLR_RASHT/back.webp
+  description: > 
+    یک پروژه دانشگاهی که اطلاعات و قیمت خانه ها را از سایت دیوار استخراج کردم و برای درس رگرسیون ۱ در دانشگاه گیلان 
+    این پروژه را ارائه دادم که تمام کارهای استاندارد مانند تحلیل اکتشافی داده ها، پیش برازش داده و مدل دادن به صورت مرحله به مرحله 
+    در گیتهاب قرار گرفته شده است.
+   
+
+  categories: [Python, Machine Learning, Linear Regression]
+
+
