@@ -1,6 +1,6 @@
 - title: Car Price Prediction 
   path: https://github.com/pouniq/CarPred
-  image: projects/CarPred/back.jpg
+  image: projects/CarPred/back.webp
   description: >
     در این پروژه اول از همه، داده های مورد نیاز ماشین کیا ریو از منبع مناسب استخراج شد، بعد از آن تحلیل اکتشافی داده ها و سپس پیش پردازش داده ها انجام شد
     برای انتخاب بهترین مدل نیز از GridSearchCv استفاده شد و بهترین مدل به وسیله Streamlit پیاده سازی شد
@@ -10,11 +10,11 @@
 
 - title: Heart Disease Prediction
   path: https://github.com/pouniq/heart_disease_prediction
-  image: projects/HeartDiseasePred/back.jpg
+  image: projects/HeartDiseasePred/back.webp
   description: >
     در این پروژه از دیتا از قبل آماده شده استفاده کردم، ابتدا تحلیل اکتشافی داده انجام شد بعد از پیش پردازش داده ها به سراغ انتخاب مدل رفتم که بهترین مدل ما RandomForestClassifier بود
     که این مدل را tune کردم تا به بهترین مدل ممکن برسم
 
 
-  categories: [Streamlit, Python, Machine Learning, Classification]
+  categories: [Streamlit, Python, Machine Learning, Classification, FastAPI]
 
