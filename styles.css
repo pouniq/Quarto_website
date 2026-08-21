@@ -8,3 +8,69 @@ body {
 .quarto-title-banner {
     padding-bottom: 2rem;
 }
+
+
+/* General mobile responsiveness */
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Main page container */
+  .quarto-container,
+  main.content {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* About section */
+  .quarto-about-jolla {
+    padding: 20px 10px;
+  }
+
+  .quarto-about-jolla .about-image {
+    max-width: 150px;
+    margin: 0 auto 20px auto;
+  }
+
+  .quarto-about-jolla .about-contents {
+    text-align: center;
+  }
+
+  /* Make text easier to read */
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* Project grid */
+  .quarto-listing-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Project cards */
+  .quarto-grid-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Important box */
+  .callout {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+}
