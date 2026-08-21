@@ -10,7 +10,6 @@ listing:
     contents: projects.yml
     type: grid
     max-description-length: 400
-    page-size: 200
 
 ---
 

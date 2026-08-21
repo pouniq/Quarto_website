@@ -1,6 +1,7 @@
 ---
 title: "TrainTestSplit explained with an Example"
 slug: traintestsplit
+dir: ltr
 categories:
   - machinelearning
   - statistics
