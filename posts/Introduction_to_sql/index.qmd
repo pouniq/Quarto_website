@@ -6,9 +6,9 @@ categories:
 ---
 
 
+![](images/0.png)
 
-
-# نصب MySQL
+#  نصب MySQL و ساخت دیتابیس
 
 
 برای دسترسی به فایل ها:
@@ -42,9 +42,9 @@ www.yasdl.com رمز فایل دانلود شده
 
 
 
-## مراحل نصب:
+## مراحل نصب
 
-### ویندوز:
+### ویندوز
 
 
 
@@ -53,7 +53,7 @@ www.yasdl.com رمز فایل دانلود شده
 ![](images/1.png)
 
 
-نوع MySQL را بر روی Developer Default بگزارید باقی بماند نیازی به دیگر نسخه ها نداریم.
+نوع MySQL را بر روی Developer Default بگذارید باقی بماند نیازی به دیگر نسخه ها نداریم.
 
 
 ![](images/2.png)
@@ -185,6 +185,9 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 
 
 
+
+
+## ساختن اولین دیتابیس در MySQL
 
 ![](images/20.png)
 
