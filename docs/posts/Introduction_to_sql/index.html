@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Amir Abdollahpour</title>
+<title>مقدمه در باب دیتابیس – Amir Abdollahpour</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6a53539d8ec9bfc63628230de0690b95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6a53539d8ec9bfc63628230de0690b95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -142,7 +82,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Amir Abdollahpour</span>
     </a>
   </div>
@@ -153,7 +93,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -174,9 +114,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <li><a href="#نصب-mysql" id="toc-نصب-mysql" class="nav-link active" data-scroll-target="#نصب-mysql">نصب MySQL</a>
   <ul class="collapse">
-  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link" data-scroll-target="#latest-posts">Latest posts</a></li>
+  <li><a href="#مراحل-نصب" id="toc-مراحل-نصب" class="nav-link" data-scroll-target="#مراحل-نصب">مراحل نصب:</a>
+  <ul class="collapse">
+  <li><a href="#ویندوز" id="toc-ویندوز" class="nav-link" data-scroll-target="#ویندوز">ویندوز:</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -186,8 +129,12 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">مقدمه در باب دیتابیس</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data</div>
+    <div class="quarto-category">machinelearning</div>
+  </div>
+  </div>
 
 
 
@@ -203,232 +150,88 @@ window.Quarto = {
 </header>
 
 
-<section id="welcome" class="level1">
-<h1>Welcome</h1>
-<p>Welcome to my blog.</p>
-<section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">Latest posts</h2>
-
+<section id="نصب-mysql" class="level1">
+<h1>نصب MySQL</h1>
+<p>برای دسترسی به فایل ها:</p>
+<p>https://github.com/pouniq/db-course-notes</p>
+<p>روش ها و نرم افزارهای مختلفی برای کار با دیتابیس وجود دارد. یکی از معروفترین آنها MySql Workbench هست که می توانید دانلود و نصب کنید. اگر مشکلی در نصب وجود داشت مراحل زیر را طی کنید.</p>
+<p>اول از همه نیاز هست که MySQL را دانلود کنید.</p>
+<p>برای ویندوز: <a href="https://edge17.85.ir.cdn.ir/2022/Software/MySQL.8.0.31.Community_YasDL.com.rar?hj">لینک دانلود</a></p>
+<p>www.yasdl.com رمز فایل دانلود شده</p>
+<p>برای macOS: <a href="https://p30download.ir/fa/entry/77934/mysql-mac">لینک صفحه دانلود</a></p>
+<section id="مراحل-نصب" class="level2">
+<h2 class="anchored" data-anchor-id="مراحل-نصب">مراحل نصب:</h2>
+<section id="ویندوز" class="level3">
+<h3 class="anchored" data-anchor-id="ویندوز">ویندوز:</h3>
+<p>بعد از دانلود MySQL کلیک بر آیکون کنید و وارد مرحله نصب شوید.</p>
+<p><img src="images/1.png" class="img-fluid"></p>
+<p>نوع MySQL را بر روی Developer Default بگزارید باقی بماند نیازی به دیگر نسخه ها نداریم.</p>
+<p><img src="images/2.png" class="img-fluid"></p>
+<p>همانطور که میبینید نیاز هست که پیشنیازهای مربوط به MySQL را نصب کنیم</p>
+<ul>
+<li>پایتون</li>
+<li>visual studio</li>
+</ul>
+<p><img src="images/3.png" class="img-fluid"></p>
+<p>برای نصب پایتون به سایت python.org باید بروید</p>
+<p>یکی از ورژن ها را می توانید دانلود کنید:</p>
+<ul>
+<li>۳.۷</li>
+<li>۳.۸</li>
+<li>۳.۹</li>
+<li>۳.۱۰</li>
+<li>۳.۱۱</li>
+</ul>
+<p>لینک دانلود مستقیم ورژن ۳.۱۱ در ادامه قرار می گیرید.</p>
+<p><a href="https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe">لینک دانلود پایتون</a></p>
+<p><img src="images/4.png" class="img-fluid"></p>
+<p>زمانی که فایل پایتون را دانلود کردید حتما گزینه add python.exe to path رو بزنید.</p>
+<p><img src="images/5.png" class="img-fluid"></p>
+<p>زمانی که رو check می زنید همانطور که مشاهده می کنید یک تیک سبز کنار python قرار می گیره</p>
+<p><img src="images/6.png" class="img-fluid"></p>
+<p>همینطور برای دومین پیشنیاز MySQL هم می توانید به سایت مایکروسافت بروید و نسخه مربوط به خودتان را دانلود و نصب کنید.</p>
+<p>https://visualstudio.microsoft.com/vs/older-downloads/</p>
+<p>ورژنی که می خواهید را نصب کنید و next را بزنید.</p>
+<p><img src="images/7.png" class="img-fluid"></p>
+<p>روی Excecute بزنید تا مراحل نصب انجام شود.</p>
+<p><img src="images/8.png" class="img-fluid"></p>
+<p>بعد next می زنید و کاری با این صفحه ندارید و خیلی ساده next می زنید</p>
+<p><img src="images/9.png" class="img-fluid"></p>
+<p>از اولین گزینه حتما استفاده کنید به دلیل اینکه نیاز هست که یک رمز برای MySQL خود بسازید.</p>
+<p><img src="images/10.png" class="img-fluid"></p>
+<p>یک رمز در این صفحه برای خود انتخاب کنید و next بزنید حتما این رمز را در یک جا یادداشت کنید یا به خاطر بسپارید تا در آینده به مشکل بر نخورید</p>
+<p><img src="images/11.png" class="img-fluid"></p>
+<p>اگر می خواهید می توانید نام MySQL خود را تغییر دهید و بعد Next می زنید.</p>
+<p><img src="images/12.png" class="img-fluid"></p>
+<p>صفحه بعدی را next می زنید و روی execute می زنید تا نصب آغاز شود.</p>
+<p><img src="images/13.png" class="img-fluid"> <img src="images/14.png" class="img-fluid"></p>
+<p>کاری با این صفحه نیز نداریم و finish می زنیم</p>
+<p><img src="images/15.png" class="img-fluid"></p>
+<p><img src="images/16.png" class="img-fluid"> <img src="images/17.png" class="img-fluid"></p>
+<p>در اینجا می توانید که رمزی که انتخاب کردید را check کنید و از رمز خود مطمئن شوید.</p>
+<p><img src="images/18.png" class="img-fluid"></p>
+<p><img src="images/19.png" class="img-fluid"></p>
+<p><img src="images/20.png" class="img-fluid"></p>
+<p>اول که صفحه MySQL Workbench باز شد می بینید که یک Local instance دارید که بر روی آن کلیک می کنید</p>
+<p><img src="images/21.png" class="img-fluid"></p>
+<p>رمزی که انتخاب کرده بودید را وارد می کنید</p>
+<p><img src="images/22.png" class="img-fluid"></p>
+<p>صفحه اصلی MySQL باز می شود</p>
+<p><img src="images/24.png" class="img-fluid"></p>
+<p>کد دیتابیس را از اینجا کپی کنید:</p>
+<p><a href="https://github.com/pouniq/db-course-notes/tree/main/db">کد دیتابیس را کپی کنید</a></p>
+<p>کدی که در گیتهاب قرار دارد را کپی و پیست کنید و روی اولین علامت رعد و برق کلیک کنید</p>
+<p><img src="images/25.png" class="img-fluid"></p>
+<p>از سمت چپ به schemas بروید و روی علامت رفرش کلیک کنید تا اولین database شما که راجب فضانوردان هست وارد MySQL شما شود.</p>
+<p><img src="images/26.png" class="img-fluid"></p>
+<p>همانطور که می بینید یک دیتابیس به نام Nasa_sample وارد MySQL شما شد <img src="images/27.png" class="img-fluid"></p>
 
 
 </section>
 </section>
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bWFjaGluZWxlYXJuaW5nJTJDc3RhdGlzdGljcw==" data-listing-file-modified-sort="1786372543733" data-listing-reading-time-sort="6" data-listing-word-count-sort="1157">
-<a href="./posts/bias_variance/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/bias_variance/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-پدیده متناقض و شگفت انگیز bias-variance tradeoff
-</h5>
-<div class="card-text listing-description delink">
-یکی از جالبترین و اصلی ترین پدیده ها در مدل های supervised یادگیری ماشین, موازنه کردن اریبی و واریانس است.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bWFjaGluZWxlYXJuaW5n" data-listing-file-modified-sort="1786356147356" data-listing-reading-time-sort="6" data-listing-word-count-sort="1060">
-<a href="./posts/ClsEval/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/ClsEval/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-معیارهای یادگیری ماشین را برای همیشه فرا بگیرید.
-</h5>
-<div class="card-text listing-description delink">
-در مسائل classification ما معیارهای متفاوتی برای ارزیابی مدل خودمون داریم که به گونه های مختلف قابل ارزیابی است قبل اینکه وارد خود معیارهای شویم باید با یک موضوعی به نام…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bWFjaGluZWxlYXJuaW5nJTJDc3RhdGlzdGljcw==" data-listing-file-modified-sort="1786356206652" data-listing-reading-time-sort="5" data-listing-word-count-sort="890">
-<a href="./posts/dataViz/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/dataViz/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-مصورسازی داده ها: نگاهی در تاریخ
-</h5>
-<div class="card-text listing-description delink">
-تنها چیز جدید در جهان، تاریخی است که شما نمی‌دانید.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="ZGF0YSUyQ21hY2hpbmVsZWFybmluZw==" data-listing-file-modified-sort="1790705628475" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<a href="./posts/Introduction_to_sql/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/Introduction_to_sql/images/1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-مقدمه در باب دیتابیس
-</h5>
-<div class="card-text listing-description delink">
-برای دسترسی به فایل ها:
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="bWFjaGluZWxlYXJuaW5n" data-listing-file-modified-sort="1786356398846" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
-<a href="./posts/missingvalues/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/missingvalues/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-روش های کنترل کردن داده های از دست رفته.
-</h5>
-<div class="card-text listing-description delink">
-داده های از دست رفته (missing values) زمانی به وجود می آیند که کاربر اطلاعاتی که نیاز هست را وارد نکرده باشد یا بخشی از داده اصلا اندازه گیری نشده باشند. این مشکل میتواند به…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="bWFjaGluZWxlYXJuaW5nJTJDc3RhdGlzdGljcw==" data-listing-file-modified-sort="1787347900604" data-listing-reading-time-sort="4" data-listing-word-count-sort="658">
-<a href="./posts/traintestsplit/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/traintestsplit/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-TrainTestSplit explained with an Example
-</h5>
-<div class="card-text listing-description delink">
-Imagine you are professor in a college and you want to conduct a exam for your students.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="b2JqZWN0LW9yaWVudGVkLXByb2dyYW1taW5nJTJDcHl0aG9uJTJDc3RhdGlzdGljcw==" data-listing-file-modified-sort="1786356350187" data-listing-reading-time-sort="8" data-listing-word-count-sort="1449">
-<a href="./posts/how-i-used-oop-to-simulate-sampling-methods-in-python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/how-i-used-oop-to-simulate-sampling-methods-in-python/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How i used OOP to simulate sampling methods in python.
-</h5>
-<div class="card-text listing-description delink">
-This method of sampling can help us in populations that the units of the population do not have equal chance of selection.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="cHJvZ3JhbW1pbmclMkNweXRob24=" data-listing-file-modified-sort="1786356279453" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
-<a href="./posts/detailed-ways-to-import-data-with-python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/detailed-ways-to-import-data-with-python/images/READINGDATA.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-the most comprehensive ways to import data with python.
-</h5>
-<div class="card-text listing-description delink">
-When working with data one of the most used formats is CSV files.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="bWFjaGluZWxlYXJuaW5nJTJDcHJvYmFiaWxpdHklMkNzdGF0aXN0aWNz" data-listing-file-modified-sort="1786356657305" data-listing-reading-time-sort="5" data-listing-word-count-sort="830">
-<a href="./posts/StatTrap/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/StatTrap/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-تله آماری: فرق همبستگی و علیت
-</h5>
-<div class="card-text listing-description delink">
-همبستگی یا correlation یعنی متغیرها در کدام جهت و به چه شدتی نسبت به یکدیگر حرکت می کنند.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="bWFjaGluZWxlYXJuaW5nJTJDcHJvYmFiaWxpdHklMkNzdGF0aXN0aWNz" data-listing-file-modified-sort="1786356448454" data-listing-reading-time-sort="6" data-listing-word-count-sort="1107">
-<a href="./posts/MLE/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/MLE/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-برآورد بیشینه درستنمایی: مقدمه ای کوتاه
-</h5>
-<div class="card-text listing-description delink">
-فرض کنید که ۲۰ مشاهده داریم که از توزیع پواسون با پارامتر (λ= 2) به وجود آمده است. آن را در R پیاده سازی کردیم:
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="bWFjaGluZWxlYXJuaW5n" data-listing-file-modified-sort="1786356527616" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
-<a href="./posts/ppl2know/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="posts/ppl2know/images/back.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-در دنیای یادگیری ماشین این ۷ نفر را باید بشناسید
-</h5>
-<div class="card-text listing-description delink">
-این لیست افرادی است که در یادگیری ماشین برای من تاثیرگذار بوده اند<br>
-امیدوارم که با آشنایی با این افراد درهای گسترده تری برای شما در دنیای یادگیری ماشین باز شود
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
