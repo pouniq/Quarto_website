@@ -1,8 +1,9 @@
 ---
-title: "مقدمه در باب دیتابیس"
+title: " نصب MySQL و ساخت دیتابیس"
 categories:
   - data
-  - machinelearning
+  - sql
+
 ---
 
 
@@ -11,9 +12,8 @@ categories:
 #  نصب MySQL و ساخت دیتابیس
 
 
-برای دسترسی به فایل ها:
 
-https://github.com/pouniq/db-course-notes
+
 
 
 
@@ -25,7 +25,15 @@ https://github.com/pouniq/db-course-notes
 
 
 
+
 اول از همه نیاز هست که MySQL را دانلود کنید.
+
+
+
+من چک کردم متاسفانه به دلیل تحریم ها سایت اصلی MySQL بسته شده است و من از سایت های دیگر
+ برای دانلود استفاده کردم اگر می توانید به سایت اصلی دسترسی پیدا کنید به سادگی قابل دانلود می باشد
+
+[سایت اصلی MySQL](https://www.mysql.com/cn/downloads/)
 
 برای ویندوز: [ لینک دانلود](https://edge17.85.ir.cdn.ir/2022/Software/MySQL.8.0.31.Community_YasDL.com.rar?hj)
 
@@ -58,6 +66,8 @@ www.yasdl.com رمز فایل دانلود شده
 
 ![](images/2.png)
 
+
+### پیشنیازهای MySQL
 همانطور که میبینید نیاز هست که پیشنیازهای مربوط به MySQL را نصب کنیم 
 
 
@@ -113,6 +123,9 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 
 
 ![](images/7.png)
+
+
+### ادامه نصب MySQL
 
 روی Excecute بزنید تا مراحل نصب انجام شود.
 
@@ -186,10 +199,13 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 
 
 
+![](images/20.png)
+
+
 
 ## ساختن اولین دیتابیس در MySQL
 
-![](images/20.png)
+
 
 اول که صفحه MySQL Workbench باز شد می بینید که یک Local instance دارید که بر روی آن کلیک می کنید
 

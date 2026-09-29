@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>مقدمه در باب دیتابیس – Amir Abdollahpour</title>
+<title>نصب MySQL و ساخت دیتابیس – Amir Abdollahpour</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -119,6 +119,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#مراحل-نصب" id="toc-مراحل-نصب" class="nav-link" data-scroll-target="#مراحل-نصب">مراحل نصب</a>
   <ul class="collapse">
   <li><a href="#ویندوز" id="toc-ویندوز" class="nav-link" data-scroll-target="#ویندوز">ویندوز</a></li>
+  <li><a href="#پیشنیازهای-mysql" id="toc-پیشنیازهای-mysql" class="nav-link" data-scroll-target="#پیشنیازهای-mysql">پیشنیازهای MySQL</a></li>
+  <li><a href="#ادامه-نصب-mysql" id="toc-ادامه-نصب-mysql" class="nav-link" data-scroll-target="#ادامه-نصب-mysql">ادامه نصب MySQL</a></li>
   </ul></li>
   <li><a href="#ساختن-اولین-دیتابیس-در-mysql" id="toc-ساختن-اولین-دیتابیس-در-mysql" class="nav-link" data-scroll-target="#ساختن-اولین-دیتابیس-در-mysql">ساختن اولین دیتابیس در MySQL</a></li>
   </ul></li>
@@ -130,10 +132,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">مقدمه در باب دیتابیس</h1>
+<h1 class="title">نصب MySQL و ساخت دیتابیس</h1>
   <div class="quarto-categories">
     <div class="quarto-category">data</div>
-    <div class="quarto-category">machinelearning</div>
+    <div class="quarto-category">sql</div>
   </div>
   </div>
 
@@ -154,10 +156,10 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/0.png" class="img-fluid"></p>
 <section id="نصب-mysql-و-ساخت-دیتابیس" class="level1">
 <h1>نصب MySQL و ساخت دیتابیس</h1>
-<p>برای دسترسی به فایل ها:</p>
-<p>https://github.com/pouniq/db-course-notes</p>
 <p>روش ها و نرم افزارهای مختلفی برای کار با دیتابیس وجود دارد. یکی از معروفترین آنها MySql Workbench هست که می توانید دانلود و نصب کنید. اگر مشکلی در نصب وجود داشت مراحل زیر را طی کنید.</p>
 <p>اول از همه نیاز هست که MySQL را دانلود کنید.</p>
+<p>من چک کردم متاسفانه به دلیل تحریم ها سایت اصلی MySQL بسته شده است و من از سایت های دیگر برای دانلود استفاده کردم اگر می توانید به سایت اصلی دسترسی پیدا کنید به سادگی قابل دانلود می باشد</p>
+<p><a href="https://www.mysql.com/cn/downloads/">سایت اصلی MySQL</a></p>
 <p>برای ویندوز: <a href="https://edge17.85.ir.cdn.ir/2022/Software/MySQL.8.0.31.Community_YasDL.com.rar?hj">لینک دانلود</a></p>
 <p>www.yasdl.com رمز فایل دانلود شده</p>
 <p>برای macOS: <a href="https://p30download.ir/fa/entry/77934/mysql-mac">لینک صفحه دانلود</a></p>
@@ -169,6 +171,9 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/1.png" class="img-fluid"></p>
 <p>نوع MySQL را بر روی Developer Default بگذارید باقی بماند نیازی به دیگر نسخه ها نداریم.</p>
 <p><img src="images/2.png" class="img-fluid"></p>
+</section>
+<section id="پیشنیازهای-mysql" class="level3">
+<h3 class="anchored" data-anchor-id="پیشنیازهای-mysql">پیشنیازهای MySQL</h3>
 <p>همانطور که میبینید نیاز هست که پیشنیازهای مربوط به MySQL را نصب کنیم</p>
 <ul>
 <li>پایتون</li>
@@ -195,6 +200,9 @@ ul.task-list li input[type="checkbox"] {
 <p>https://visualstudio.microsoft.com/vs/older-downloads/</p>
 <p>ورژنی که می خواهید را نصب کنید و next را بزنید.</p>
 <p><img src="images/7.png" class="img-fluid"></p>
+</section>
+<section id="ادامه-نصب-mysql" class="level3">
+<h3 class="anchored" data-anchor-id="ادامه-نصب-mysql">ادامه نصب MySQL</h3>
 <p>روی Excecute بزنید تا مراحل نصب انجام شود.</p>
 <p><img src="images/8.png" class="img-fluid"></p>
 <p>بعد next می زنید و کاری با این صفحه ندارید و خیلی ساده next می زنید</p>
@@ -213,11 +221,11 @@ ul.task-list li input[type="checkbox"] {
 <p>در اینجا می توانید که رمزی که انتخاب کردید را check کنید و از رمز خود مطمئن شوید.</p>
 <p><img src="images/18.png" class="img-fluid"></p>
 <p><img src="images/19.png" class="img-fluid"></p>
+<p><img src="images/20.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="ساختن-اولین-دیتابیس-در-mysql" class="level2">
 <h2 class="anchored" data-anchor-id="ساختن-اولین-دیتابیس-در-mysql">ساختن اولین دیتابیس در MySQL</h2>
-<p><img src="images/20.png" class="img-fluid"></p>
 <p>اول که صفحه MySQL Workbench باز شد می بینید که یک Local instance دارید که بر روی آن کلیک می کنید</p>
 <p><img src="images/21.png" class="img-fluid"></p>
 <p>رمزی که انتخاب کرده بودید را وارد می کنید</p>
