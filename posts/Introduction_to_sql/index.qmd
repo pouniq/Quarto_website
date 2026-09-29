@@ -182,7 +182,6 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 ![](images/14.png)
 
 
-کاری با این صفحه نیز نداریم و finish می زنیم
 
 
 
@@ -193,6 +192,12 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 
 
 ![](images/16.png)
+
+
+کاری با این صفحه نیز نداریم و finish می زنیم
+
+
+
 ![](images/17.png)
 
 
