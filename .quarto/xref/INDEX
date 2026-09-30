@@ -55,5 +55,8 @@
   },
   "posts/Introduction_to_sql/index.qmd": {
     "index.html": "c34306ab"
+  },
+  "posts/Introduction_to_sql_part_1/index.qmd": {
+    "index.html": "623c8cc7"
   }
 }

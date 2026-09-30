@@ -312,7 +312,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "پدیده متناقض و شگفت انگیز bias-variance tradeoff\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nمعیارهای یادگیری ماشین را برای همیشه فرا بگیرید.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nمصورسازی داده ها: نگاهی در تاریخ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nنصب MySQL و ساخت دیتابیس\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nروش های کنترل کردن داده های از دست رفته.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrainTestSplit explained with an Example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow i used OOP to simulate sampling methods in python.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nthe most comprehensive ways to import data with python.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nتله آماری: فرق همبستگی و علیت\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nبرآورد بیشینه درستنمایی: مقدمه ای کوتاه\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nدر دنیای یادگیری ماشین این ۷ نفر را باید بشناسید\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "پدیده متناقض و شگفت انگیز bias-variance tradeoff\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nمعیارهای یادگیری ماشین را برای همیشه فرا بگیرید.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nمصورسازی داده ها: نگاهی در تاریخ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nروش های کنترل کردن داده های از دست رفته.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrainTestSplit explained with an Example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nنصب MySQL و ساخت دیتابیس\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow i used OOP to simulate sampling methods in python.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nthe most comprehensive ways to import data with python.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nتله آماری: فرق همبستگی و علیت\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nبرآورد بیشینه درستنمایی: مقدمه ای کوتاه\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nدر دنیای یادگیری ماشین این ۷ نفر را باید بشناسید\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Introduction_to_sql/index.html#مراحل-نصب",
@@ -327,5 +327,19 @@
     "title": "نصب MySQL و ساخت دیتابیس",
     "section": "ساختن اولین دیتابیس در MySQL",
     "text": "ساختن اولین دیتابیس در MySQL\nاول که صفحه MySQL Workbench باز شد می بینید که یک Local instance دارید که بر روی آن کلیک می کنید\n\nرمزی که انتخاب کرده بودید را وارد می کنید\n\nصفحه اصلی MySQL باز می شود\n\nکد دیتابیس را از اینجا کپی کنید:\nکد دیتابیس را کپی کنید\nکدی که در گیتهاب قرار دارد را کپی و پیست کنید و روی اولین علامت رعد و برق کلیک کنید\n\nاز سمت چپ به schemas بروید و روی علامت رفرش کلیک کنید تا اولین database شما که راجب فضانوردان هست وارد MySQL شما شود.\n\nهمانطور که می بینید یک دیتابیس به نام Nasa_sample وارد MySQL شما شد"
+  },
+  {
+    "objectID": "posts/Introduction_to_sql_part_1/index.html#مراحل-نصب",
+    "href": "posts/Introduction_to_sql_part_1/index.html#مراحل-نصب",
+    "title": "نصب MySQL و ساخت دیتابیس",
+    "section": "مراحل نصب",
+    "text": "مراحل نصب\n\nویندوز\nبعد از دانلود MySQL کلیک بر آیکون کنید و وارد مرحله نصب شوید.\n\nنوع MySQL را بر روی Developer Default بگذارید باقی بماند نیازی به دیگر نسخه ها نداریم.\n\n\n\nپیشنیازهای MySQL\nهمانطور که میبینید نیاز هست که پیشنیازهای مربوط به MySQL را نصب کنیم\n\nپایتون\nvisual studio\n\n\nبرای نصب پایتون به سایت python.org باید بروید\nیکی از ورژن ها را می توانید دانلود کنید:\n\n۳.۷\n۳.۸\n۳.۹\n۳.۱۰\n۳.۱۱\n\nلینک دانلود مستقیم ورژن ۳.۱۱ در ادامه قرار می گیرید.\nلینک دانلود پایتون\n\nزمانی که فایل پایتون را دانلود کردید حتما گزینه add python.exe to path رو بزنید.\n\nزمانی که رو check می زنید همانطور که مشاهده می کنید یک تیک سبز کنار python قرار می گیره\n\nهمینطور برای دومین پیشنیاز MySQL هم می توانید به سایت مایکروسافت بروید و نسخه مربوط به خودتان را دانلود و نصب کنید.\nسایت مایکروسافت برای دانلود پیشنیاز\nورژنی که می خواهید را نصب کنید و next را بزنید.\n\n\n\nادامه نصب MySQL\nروی Excecute بزنید تا مراحل نصب انجام شود.\n\nبعد next می زنید و کاری با این صفحه ندارید و خیلی ساده next می زنید\n\nاز اولین گزینه حتما استفاده کنید به دلیل اینکه نیاز هست که یک رمز برای MySQL خود بسازید.\n\nیک رمز در این صفحه برای خود انتخاب کنید و next بزنید حتما این رمز را در یک جا یادداشت کنید یا به خاطر بسپارید تا در آینده به مشکل بر نخورید\n\nاگر می خواهید می توانید نام MySQL خود را تغییر دهید و بعد Next می زنید.\n\nصفحه بعدی را next می زنید و روی execute می زنید تا نصب آغاز شود.\n \n\n\nکاری با این صفحه نیز نداریم و finish می زنیم\n\nدر اینجا می توانید که رمزی که انتخاب کردید را check کنید و از رمز خود مطمئن شوید."
+  },
+  {
+    "objectID": "posts/Introduction_to_sql_part_1/index.html#ساختن-اولین-دیتابیس-در-mysql",
+    "href": "posts/Introduction_to_sql_part_1/index.html#ساختن-اولین-دیتابیس-در-mysql",
+    "title": "نصب MySQL و ساخت دیتابیس",
+    "section": "ساختن اولین دیتابیس در MySQL",
+    "text": "ساختن اولین دیتابیس در MySQL\n\nساخت دیتابیس\nاول که صفحه MySQL Workbench باز شد می بینید که یک Local instance دارید که بر روی آن کلیک می کنید\n\nرمزی که انتخاب کرده بودید را وارد می کنید\n\nصفحه اصلی MySQL باز می شود\n\nکد دیتابیس را از اینجا کپی کنید:\nکد دیتابیس را کپی کنید\nکدی که در گیتهاب قرار دارد را کپی و پیست کنید و روی اولین علامت رعد و برق کلیک کنید\n\nاز سمت چپ به schemas بروید و روی علامت رفرش کلیک کنید تا اولین database شما که راجب فضانوردان هست وارد MySQL شما شود.\n\nهمانطور که می بینید یک دیتابیس به نام Nasa_sample وارد MySQL شما شد \nمیتوانید جداول دیتابیس را با این کد مشاهده کنید:\nبه عنوان مثال برای مشاهده جدول فضاپیماها از این کد در MySQL خود استفاده کنید\nSELECT * FROM Nasa_sample.spacecraft\n\n\nهر جدول این دیتابیس نشانه چیست؟\n\n\n\n\n\n\n\nنام جدول\nتعریف\n\n\n\n\nspacecraft\nفضاپیمای که در آن ماموریت استفاده شد چه ویژگی هایی داشت\n\n\nastronauts\nویژگیهای هر فضانورد\n\n\nmissions\nویژگیهای هر ماموریت\n\n\nmission_crew\nنقش و وظیفه هر فضانورد چه بود؟"
   }
 ]
