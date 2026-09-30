@@ -149,9 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#نصب-mysql-و-ساخت-دیتابیس" id="toc-نصب-mysql-و-ساخت-دیتابیس" class="nav-link active" data-scroll-target="#نصب-mysql-و-ساخت-دیتابیس">نصب MySQL و ساخت دیتابیس</a>
-  <ul class="collapse">
-  <li><a href="#مراحل-نصب" id="toc-مراحل-نصب" class="nav-link" data-scroll-target="#مراحل-نصب">مراحل نصب</a>
+  <li><a href="#مراحل-نصب" id="toc-مراحل-نصب" class="nav-link active" data-scroll-target="#مراحل-نصب">مراحل نصب</a>
   <ul class="collapse">
   <li><a href="#ویندوز" id="toc-ویندوز" class="nav-link" data-scroll-target="#ویندوز">ویندوز</a></li>
   <li><a href="#پیشنیازهای-mysql" id="toc-پیشنیازهای-mysql" class="nav-link" data-scroll-target="#پیشنیازهای-mysql">پیشنیازهای MySQL</a></li>
@@ -160,8 +158,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#ساختن-اولین-دیتابیس-در-mysql" id="toc-ساختن-اولین-دیتابیس-در-mysql" class="nav-link" data-scroll-target="#ساختن-اولین-دیتابیس-در-mysql">ساختن اولین دیتابیس در MySQL</a>
   <ul class="collapse">
   <li><a href="#ساخت-دیتابیس" id="toc-ساخت-دیتابیس" class="nav-link" data-scroll-target="#ساخت-دیتابیس">ساخت دیتابیس</a></li>
-  <li><a href="#هر-جدول-این-دیتابیس-نشانه-چیست" id="toc-هر-جدول-این-دیتابیس-نشانه-چیست" class="nav-link" data-scroll-target="#هر-جدول-این-دیتابیس-نشانه-چیست">هر جدول این دیتابیس نشانه چیست؟</a></li>
-  </ul></li>
+  <li><a href="#هر-جدول-چه-اطلاعاتی-دارد" id="toc-هر-جدول-چه-اطلاعاتی-دارد" class="nav-link" data-scroll-target="#هر-جدول-چه-اطلاعاتی-دارد">هر جدول چه اطلاعاتی دارد؟</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -193,8 +190,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p><img src="images/0.png" class="img-fluid"></p>
-<section id="نصب-mysql-و-ساخت-دیتابیس" class="level1">
-<h1>نصب MySQL و ساخت دیتابیس</h1>
 <p>روش ها و نرم افزارهای مختلفی برای کار با دیتابیس وجود دارد. یکی از معروفترین آنها MySql Workbench هست که می توانید دانلود و نصب کنید. اگر مشکلی در نصب وجود داشت مراحل زیر را طی کنید.</p>
 <p>اول از همه نیاز هست که MySQL را دانلود کنید.</p>
 <p>توجه داشته باشید که ممکن است فضای نصب شما متفاوت با این راهنما باشد اگر ورژن دیگری را نصب کنید به این نکات توجه کنید:</p>
@@ -205,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>برای جزییات بیشتر ادامه را بخوانید.</p>
 <p>من چک کردم متاسفانه به دلیل تحریم ها سایت اصلی MySQL بسته شده است و من از سایت های دیگر برای دانلود استفاده کردم اگر می توانید به سایت اصلی دسترسی پیدا کنید به سادگی قابل دانلود می باشد</p>
-<p><a href="https://www.mysql.com/cn/downloads/">سایت اصلی MySQL</a></p>
+<p><a href="dev.mysql.com/downloads/installer/">سایت اصلی MySQL</a></p>
 <p>برای ویندوز: <a href="https://edge17.85.ir.cdn.ir/2022/Software/MySQL.8.0.31.Community_YasDL.com.rar?hj">لینک دانلود</a></p>
 <p>www.yasdl.com رمز فایل دانلود شده</p>
 <p>برای macOS: <a href="https://p30download.ir/fa/entry/77934/mysql-mac">لینک صفحه دانلود</a></p>
@@ -220,7 +215,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="پیشنیازهای-mysql" class="level3">
 <h3 class="anchored" data-anchor-id="پیشنیازهای-mysql">پیشنیازهای MySQL</h3>
-<p>همانطور که میبینید نیاز هست که پیشنیازهای مربوط به MySQL را نصب کنیم</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>این پیش‌نیازها برای چیست؟
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>پایتون و Visual Studio فقط زمانی به کار می‌آیند که بخواهید از <strong>برنامه‌های خارج از Workbench</strong> به MySQL متصل شوید؛ مثلاً با پایتون یا با Visual Studio در پروژه‌های #C و .NET.</p>
+<p>برای نصب سرور، کار با Workbench و اجرای دستورهای SQL در این آموزش به آن‌ها نیازی نیست. اگر بعداً خواستید از پایتون به MySQL وصل شوید، لازم نیست Installer را دوباره اجرا کنید و کافی است در محیط پایتون این دستور را بزنید:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install mysql-connector-python</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+<p>اگر همچنان میخواهید این دو پیش نیاز را نصب کنید ادامه را بخوانید در غیر این صورت به ادامه نصب MySQL بپردازید</p>
 <ul>
 <li>پایتون</li>
 <li>visual studio</li>
@@ -290,10 +300,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>همانطور که می بینید یک دیتابیس به نام Nasa_sample وارد MySQL شما شد <img src="images/27.png" class="img-fluid"></p>
 <p>میتوانید جداول دیتابیس را با این کد مشاهده کنید:</p>
 <p>به عنوان مثال برای مشاهده جدول فضاپیماها از این کد در MySQL خود استفاده کنید</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> Nasa_sample.spacecraft</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> Nasa_sample.spacecraft;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="هر-جدول-این-دیتابیس-نشانه-چیست" class="level3">
-<h3 class="anchored" data-anchor-id="هر-جدول-این-دیتابیس-نشانه-چیست">هر جدول این دیتابیس نشانه چیست؟</h3>
+<section id="هر-جدول-چه-اطلاعاتی-دارد" class="level3">
+<h3 class="anchored" data-anchor-id="هر-جدول-چه-اطلاعاتی-دارد">هر جدول چه اطلاعاتی دارد؟</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 60%">
@@ -326,7 +336,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 
 
-</section>
 </section>
 </section>
 
