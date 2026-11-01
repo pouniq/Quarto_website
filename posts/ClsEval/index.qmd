@@ -36,7 +36,7 @@ categories:
 
 حالا براساس این اعداد ما یک سری معیارهای کلی تری را با جمع و تقسیم این اعداد نسبت به هم به دست می آوریم اولین آنها Accuracy است.
 
-Accuracy=TP+TNTP+TN+FP+FNAccuracy = \frac{TP+TN}{TP+TN+FP+FN}
+$Accuracy = \frac{TP+TN}{TP+TN+FP+FN}$
 
 که از جمع زمانی که مدل ما سنگ را الماس دار تشخیص میدهد (حتی به غلط) به دست می آید و آن عدد را تقسیم بر کل اعدادی که داریم می کنیم.
 
@@ -48,7 +48,7 @@ Accuracy=TP+TNTP+TN+FP+FNAccuracy = \frac{TP+TN}{TP+TN+FP+FN}
 
 معیار بعدی به نام Specificity است که فقط تشکیل شده از این است که مدل ما **درست** عمل کرده باشد یعنی اینکه زمانی که سنگ الماس داشته باشد بگوید که الماس وجود دارد و زمانی که الماس وجود نداشته باشد بگوید که الماس وجود ندارد.
 
-Specificity=TNTN+FPSpecificity = \frac{TN}{TN+FP}
+$Specificity = \frac{TN}{TN+FP}$
 
 ## Precision:
 
@@ -56,7 +56,7 @@ Specificity=TNTN+FPSpecificity = \frac{TN}{TN+FP}
 
 در صورت زمانی که مدل درست پیشبینی کرده است را قرار می دهیم و در مخرج جمع زمانی که درست پیشبینی کرده است و یا غلط پیشبینی کرده است. *(به معنای اینکه الماس وجود داشت و آن را توانست پیشبینی کند و الماس وجود داشت و نتوانست آن را پیشبینی کند)*
 
-Precision=TPTP+FPPrecision = \frac{TP}{TP+FP}
+$Precision = \frac{TP}{TP+FP}$
 
 ## Recall:
 
@@ -64,13 +64,13 @@ Precision=TPTP+FPPrecision = \frac{TP}{TP+FP}
 
 زمانی که الماس باشد بگوید الماس دارد و زمانی که الماس نداشته باشد بگوید الماس ندارد.
 
-Recall=TPTP+FNRecall = \frac{TP}{TP+FN}
+$Recall = \frac{TP}{TP+FN}$
 
 ## F1-Score:
 
 معیار بعدی به نام F1-score هست که در داده هایی استفاده می شود که فیچر تارگت Imbalanced یا نامتوازن هستند این معیار یک تعادلی بین Recall و Precision ایجاد میکند.
 
-F1=2×(Precision×Recall)Precision×RecallF1 = \frac{2 \times (Precision \times Recall)}{Precision \times Recall}
+$F1 = \frac{2 \times (Precision \times Recall)}{Precision \times Recall}$
 
 ## AUC & ROC Curve:
 
