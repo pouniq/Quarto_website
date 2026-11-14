@@ -1,3 +1,13 @@
+- title: Music Genre Classification 
+  path: https://github.com/pouniq/music_genre_classification
+  image: projects/GenreClassification/back.webp
+  description: >
+    انجام تسک کلاس بندی برای داده های صوتی و تشخیص بهترین مدل برای این داده ها و هایپر پارامتر تونینگ برای مدل برتر 
+    این داده ها ۱۰ سبک موسیقی را شامل می شوند و می توان با قرار دادن موسیقی مورد نظر کاربر سبک آن موسیقی را تشخیص دهد
+   
+  categories: [Python, Machine Learning, Classification]
+
+
 - title: Car Price Prediction 
   path: https://github.com/pouniq/CarPred
   image: projects/CarPred/back.webp
